@@ -1,0 +1,2 @@
+    cd /opt/mcserver/MineColoniesModpackServerBackupV2
+    java         -XX:+UseG1GC         -XX:+UseFastAccessorMethods         -XX:+OptimizeStringConcat         -XX:+AggressiveOpts         -XX:+UseStringDeduplication         -XX:StringTableSize=1000003         -XX:MetaspaceSize=512m         -XX:MaxMetaspaceSize=4096m         -XX:MaxGCPauseMillis=50         -Xms4096M         -Xmx12288M         -XX:hashCode=5         -Dfile.encoding=UTF-8         -jar forge*.jar         nogui
