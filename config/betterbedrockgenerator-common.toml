@@ -1,0 +1,10 @@
+
+[General]
+	#A list of dimension ids that this mod should filter based on the 'Act as whitelist' setting.
+	#Modded dimensionFilter will need to be added here to be affected.
+	#Adding a '=>' behind the dimension id, you can change the layer to another block.
+	#Adding nothing will result in default bedrock
+	dimensionFilter = ["minecraft:overworld", "minecraft:the_nether"]
+	#Set to false to make the dimension whitelist act as a blacklist.
+	isWhitelist = true
+
